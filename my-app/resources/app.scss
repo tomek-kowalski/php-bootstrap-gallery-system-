@@ -1,0 +1,37 @@
+$body-padding: 70px;
+$footer-margin: 50px 0;
+$image-height: 150px!important;
+$img: 100%;
+$auto: auto;
+$primery_color: #000;
+$text_color: #fff;
+$primery_color_hover: #025a38;
+$text_color_hover: #fff;
+
+body {
+    padding-top: $body-padding;
+}
+
+footer {
+    margin: $footer-margin;
+}
+
+.image_home_page {
+    height: $image-height;
+}
+
+.img-width {
+    width: $img;
+}
+
+/***PAGINATION***/
+
+.pager .active a {
+    background-color: $primery_color;
+    color: $text_color;
+}
+
+.pager .active a:hover {
+    background-color: $primery_color_hover;
+    color: $text_color_hover;
+}
